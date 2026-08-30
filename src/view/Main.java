@@ -12,7 +12,7 @@ public class Main {
         m.setLocationRelativeTo(null);
         m.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         m.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-        m.setIconImage(new ImageIcon("src\\icons\\somatorio.png").getImage());
+        m.setIconImage(new ImageIcon(Main.class.getResource("/icons/somatorio.png")).getImage());
 
         m.setVisible(true);
     }
